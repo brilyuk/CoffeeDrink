@@ -37,7 +37,7 @@ $(document).ready( function() {
 
 	$('#testimonial-big-carousel').owlCarousel({
 		singleItem: true,
-		autoPlay: 3000,
+		autoPlay: 5000,
 		transitionStyle: 'fadeUp'
 	});
 
