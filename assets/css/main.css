@@ -43,15 +43,8 @@ section .heading:after {
   margin-top: 35px;
 }
 
-h1 .heading {
-  -webkit-animation: heading 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
-        animation: heading 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
-}
-
 section .lead {
   margin-bottom: 50px;
-  -webkit-animation: lead 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.5s both;
-        animation: lead 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.5s both;
 }
 
 
@@ -1814,6 +1807,8 @@ div[class*="col-"] > .form-group {
 .hero-unit-fullscreen .lead {
   font-size: 28px;
   margin-bottom: 60px;
+  -webkit-animation: lead 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.5s both;
+        animation: lead 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.5s both;
 }
 @media screen and (max-width: 480px) {
   .hero-unit-fullscreen .lead {
