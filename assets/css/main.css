@@ -29,8 +29,8 @@ section {
 }
 section .heading {
   margin: 0 0 50px 0;
-  font-size: 48px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 400;
   text-align: center;
   line-height: .8;
 }
@@ -2007,7 +2007,7 @@ div[class*="col-"] > .form-group {
   border-bottom: 3px solid transparent;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 17px;
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
